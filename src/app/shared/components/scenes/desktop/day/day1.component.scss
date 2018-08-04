@@ -1,0 +1,14 @@
+#pink {
+  animation: rotating 2s 0.25s linear infinite;
+}
+#green {
+  animation: rotating 5s -0.25s linear infinite;
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

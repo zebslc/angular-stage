@@ -1,0 +1,9 @@
+.jumbotron {
+  min-height: 600px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.stage {
+  border: #fff 5px solid;
+}
