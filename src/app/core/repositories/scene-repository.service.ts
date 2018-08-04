@@ -13,21 +13,21 @@ export class SceneRepositoryService {
       {
         key: 'mob1',
         component: Day1Component,
-        data: { title: 'mobile page 1' },
+        data: { title: 'mobile page one' },
         tags: ['home'],
         sizes: ['xs', 'sm']
       },
       {
         key: 'desk1',
         component: Day1Component,
-        data: { title: 'desktop page 1' },
+        data: { title: 'desktop page one' },
         tags: ['home'],
         sizes: ['md', 'lg', 'xl']
       },
       {
         key: 'desk2',
         component: Day1Component,
-        data: { title: 'desktop page 2' },
+        data: { title: 'desktop page two' },
         tags: ['home'],
         sizes: ['md', 'lg', 'xl']
       }

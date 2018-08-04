@@ -70,9 +70,11 @@ export class StageComponent implements OnInit, OnDestroy {
     );
   }
   private _unsubscribe(): void {
-    this._subscriptions.forEach((subscription: Subscription) =>
-      subscription.unsubscribe()
-    );
+    if (this.isPopulatedArray(this._subscriptions)) {
+      this._subscriptions.forEach((subscription: Subscription) =>
+        subscription.unsubscribe()
+      );
+    }
   }
 
   private loadComponent() {
